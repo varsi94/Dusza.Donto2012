@@ -51,8 +51,17 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Model\ConstantToken.cs" />
+    <Compile Include="Model\IPostFixToken.cs" />
+    <Compile Include="Model\PostFixUtil.cs" />
+    <Compile Include="Model\ProductToken.cs" />
+    <Compile Include="Model\SumToken.cs" />
+    <Compile Include="Model\VariableToken.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
