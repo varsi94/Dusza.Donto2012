@@ -56,7 +56,7 @@
     <Compile Include="Model\PostFixUtil.cs" />
     <Compile Include="Model\ProductToken.cs" />
     <Compile Include="Model\SumToken.cs" />
-    <Compile Include="Model\VariableToken.cs" />
+    <Compile Include="Model\UserDefinedPostFixFormula.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
